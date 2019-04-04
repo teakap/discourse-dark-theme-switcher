@@ -1,6 +1,6 @@
 # Discourse Theme Switcher
 
-After a lot of feedback I decapsulated the Theme Switcher from my [Alien Night](https://meta.discourse.org/t/alien-night-theme-a-free-dark-theme-for-discourse/54175) Theme to this Theme Switcher Theme Component.
+After a lot of feedback I encapsulated the Theme Switcher from my [Alien Night](https://meta.discourse.org/t/alien-night-theme-a-free-dark-theme-for-discourse/54175) Theme to this Theme Switcher Theme Component.
 
 # Installation
 
