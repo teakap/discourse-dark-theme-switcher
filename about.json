@@ -1,0 +1,27 @@
+{
+  "name": "Discourse Theme Switcher",
+  "component": true,
+  "license_url": "https://github.com/B-iggy/discourse-theme-switcher",
+  "about_url": "https://github.com/B-iggy/discourse-theme-switcher",
+  "authors": "Ignaz Biegler",
+  "theme_version": "2.0",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Discourse Theme Switcher": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "019245",
+      "quaternary": "019494",
+      "header_background": "019245",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "019245",
+      "love": "d41313"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
