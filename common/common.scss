@@ -81,6 +81,11 @@
 	}
 }
 
+.topic-list-main-link a.title,
+.topic-list .main-link a.title {
+	color: #919191;
+}
+
 html.dark .discourse-local-date.cooked {
 	color: #019245;
 }
@@ -333,7 +338,7 @@ html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name,
 html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active,
 html.dark .select-kit.combo-box .select-kit-filter .filter-input,
 html.dark .select-kit.dropdown-select-box.period-chooser .period-chooser-header .d-icon,
-html.dark .styleguide .styleguide-menu ul li {
+html.dark .styleguide .styleguide-menu ul li a {
 	color: #fbfbfb;
 }
 
