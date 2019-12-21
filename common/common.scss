@@ -81,8 +81,8 @@
 	}
 }
 
-.topic-list-main-link a.title,
-.topic-list .main-link a.title {
+.topic-list-main-link a.title, .topic-list .main-link a.title,
+html.dark textarea::placeholder {
 	color: #919191;
 }
 
@@ -118,6 +118,10 @@ html.dark .category-boxes .category-box-inner, .category-boxes-with-topics .cate
 	border-color: transparent;
 }
 
+html.dark .discourse-local-date.cooked {
+	color: #019245;
+}
+
 html.dark,
 html.dark .header,
 html.dark .header nav,
@@ -134,11 +138,13 @@ html.dark .modal-inner-container,
 html.dark .menu-panel,
 html.dark #reply-control.fullscreen:before,
 html.dark .user-menu .notifications .read,
-html.dark .user-stream .item,
+html.dark .user-stream .item.large-notification,
 html.dark .user-stream .user-stream-item,
 html.dark .select-kit.multi-select .select-kit-row,
 html.dark .select-kit .select-kit-collection,
-html.dark .select-kit .select-kit-body {
+html.dark .select-kit .select-kit-body,
+html.dark .popup-menu,
+html.dark .user-menu .quick-access-panel .read {
 	background-color: #111923;
 }
 
@@ -154,7 +160,11 @@ html.dark .menu-panel li a:hover,
 html.dark .select-kit.combo-box .select-kit-row,
 html.dark .menu-panel li a:focus,
 html.dark .modal.history-modal span.edit-reason,
-html.dark .select-kit.combo-box.mini-tag-chooser .select-kit-collection .collection-header .selected-tag {
+html.dark .select-kit.combo-box.mini-tag-chooser .select-kit-collection .collection-header .selected-tag,
+html.dark .vote-option:hover,
+html.dark .voting-wrapper.show-pointer .vote-count-wrapper:not(.no-votes):hover,
+html.dark .user-menu .quick-access-panel .show-all a,
+html.dark #banner {
 	background-color: #1f353e;
 }
 
@@ -218,7 +228,6 @@ html.dark .base p,
 html.dark .base h3,
 html.dark .base h4,
 html.dark select,
-html.dark textarea,
 html.dark .flagged-post .flagged-post-details .flagged-post-contents .flagged-post-user-details .username,
 html.dark .search-title .result-count span,
 html.dark .search-title .sort-by .desc,
@@ -338,7 +347,15 @@ html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name,
 html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active,
 html.dark .select-kit.combo-box .select-kit-filter .filter-input,
 html.dark .select-kit.dropdown-select-box.period-chooser .period-chooser-header .d-icon,
-html.dark .styleguide .styleguide-menu ul li a {
+html.dark .groups-boxes .group-box .groups-info-name,
+html.dark .modal.has-tabs .modal-tabs .modal-tab.is-active.single-tab,
+html.dark .d-editor-textarea-wrapper textarea,
+html.dark .admin-badge-list-item .badge-display-name,
+html.dark .reviewable-item .post-topic .title-text,
+html.dark .select-kit .select-kit-row .discourse-tag-count,
+html.dark .select-kit .select-kit-row .discourse-tag,
+html.dark #banner-content,
+html.dark .modal.history-modal #revision-numbers {
 	color: #fbfbfb;
 }
 
@@ -356,7 +373,9 @@ html.dark .dashboard-stats table th,
 html.dark .reply-to a,
 html.dark div.poll .poll-info,
 html.dark a.hashtag,
-html.dark .title-wrapper .topic-statuses .d-icon {
+html.dark .title-wrapper .topic-statuses .d-icon,
+html.dark .user-stream .notification p span:first-child,
+html.dark .discourse-local-date.cooked-date .d-icon {
 	color: #019245;
 }
 
@@ -406,15 +425,12 @@ html.dark .ecc-calc:active {
 html.dark .admin-controls .controls.search label,
 html.dark .admin-report-table .total-row,
 html.dark .select-kit.combo-box .select-kit-header,
-html.dark .alert span,
 html.dark .display-row.highlight-danger,
 html.dark .d-toc-close,
 html.dark .mobile-nav .drop.expanded li a,
 html.dark nav.post-controls button.create:hover,
 html.dark div.ac-wrap div.item span,
 html.dark .composer-popup,
-html.dark .search-menu .no-results,
-html.dark .popup-menu h3,
 html.dark #share-link h3,
 html.dark .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt,
 html.dark .modal-inner-container .d-editor-button-bar button,
@@ -432,7 +448,8 @@ html.dark #simple-container,
 html.dark .list-controls .category-breadcrumb .dropdown-header,
 html.dark .select-box-kit.combo-box .select-box-kit-row,
 html.dark .ip-lookup .location-box,
-html.dark .show-badge-details .badge-title .form-horizontal .controls {
+html.dark .show-badge-details .badge-title .form-horizontal .controls,
+html.dark .share-and-invite.modal .share.modal-panel .body .topic-share-url {
 	color: #222;
 }
 
@@ -443,7 +460,8 @@ html.dark .header-navListSub--connect {
 	width: 100%;
 }
 
-html.dark .header-navListSub--connect a {
+html.dark .header-navListSub--connect a,
+html.dark .post-notice .d-icon {
 	color: #fff;
 }
 
@@ -453,7 +471,9 @@ html.dark .admin-customize .themes-list-header .tab:not(.active):hover,
 html.dark .timeline-container .topic-timeline .timeline-handle,
 html.dark div.poll .results .bar,
 html.dark .selected-posts .btn,
-html.dark .topic-post.selected article.boxed .select-posts button.select-post {
+html.dark .topic-post.selected article.boxed .select-posts button.select-post,
+html.dark .post-notice,
+html.dark .topic-body .solved-container .btn {
 	background-color: #019245;
 }
 
@@ -474,6 +494,11 @@ html.dark .counters-list .admin-report .main:hover {
 html.dark .admin-controls nav:before,
 html.dark .admin-controls nav:after {
 	background: none;
+}
+
+html.dark .post-notice.old {
+    color: #fbfbfb;
+    font-style: italic;
 }
 
 html.dark .admin-controls .nav-pills,
@@ -531,7 +556,8 @@ html.dark .discourse-no-touch .topic-body .actions .fade-out {
 }
 
 html.dark .nav-pills>li>a:hover,
-html.dark span.highlighted {
+html.dark span.highlighted,
+html.dark .user-stream .item.large-notification.unread {
 	background-color: #006f6f;
 }
 
@@ -553,7 +579,8 @@ html.dark .admin-controls {
 
 html.dark .user-menu .notifications li span,
 html.dark .large-notification a span,
-html.dark .select-kit.dropdown-select-box {
+html.dark .select-kit.dropdown-select-box,
+html.dark .user-menu .quick-access-panel li span:first-child {
 	color: #d0901d;
 }
 
@@ -567,7 +594,8 @@ html.dark .cbox10 {
 }
 
 html.dark .dashboard-stats table th,
-html.dark .content-list ul li a:hover {
+html.dark .content-list ul li a:hover,
+html.dark .user-menu .quick-access-panel .read:hover {
 	background: rgb(31, 42, 56);
 }
 
@@ -579,6 +607,15 @@ html.dark .user-menu .notifications li {
     background-color: #006f6f;
 }
 
+html.dark .user-menu .quick-access-panel li {
+    background-color: rgba(1, 148, 148, 0.3);
+}
+
+html.dark .user-menu .quick-access-panel li:focus,
+html.dark .user-menu .quick-access-panel li:hover {
+    box-shadow: inset 0px 0px 0px 2px #019494;
+}
+
 html.dark .theme,
 html.dark .selected-posts {
 	background: #222;
@@ -588,7 +625,8 @@ html.dark .dashboard-stats.detected-problems {
 	background: #615151;
 }
 
-html.dark .select-box .select-box-header {
+html.dark .select-box .select-box-header,
+html.dark .presence-users {
 	background: transparent;
 }
 
