@@ -87,11 +87,11 @@ html.dark textarea::placeholder {
 }
 
 html.dark .discourse-local-date.cooked {
-	color: #019245;
+	color: #0f82af;
 }
 
 html.dark .category-boxes-with-topics h3:hover {
-	color: #019245;
+	color: #0f82af;
 }
 
 html.dark .cooked, .d-editor-preview {
@@ -119,7 +119,7 @@ html.dark .category-boxes .category-box-inner, .category-boxes-with-topics .cate
 }
 
 html.dark .discourse-local-date.cooked {
-	color: #019245;
+	color: #0f82af;
 }
 
 html.dark,
@@ -145,7 +145,7 @@ html.dark .select-kit .select-kit-collection,
 html.dark .select-kit .select-kit-body,
 html.dark .popup-menu,
 html.dark .user-menu .quick-access-panel .read {
-	background-color: #111923;
+	background-color: black;
 }
 
 html.dark .topic-map .buttons .btn,
@@ -165,7 +165,7 @@ html.dark .vote-option:hover,
 html.dark .voting-wrapper.show-pointer .vote-count-wrapper:not(.no-votes):hover,
 html.dark .user-menu .quick-access-panel .show-all a,
 html.dark #banner {
-	background-color: #1f353e;
+	background-color: black;
 }
 
 html.dark .discourse-no-touch:hover,
@@ -173,11 +173,12 @@ html.dark .btn:hover,
 html.dark .select-kit .select-kit-row.is-selected,
 html.dark .admin-report-table .table .admin-report-table-header:not(.is-current-sort) .sort-btn:hover,
 html.dark .select-kit.combo-box .select-kit-row:hover {
-	background: #006f6f;
+	background: #222222;
 }
 
+// TODO: Double check me!
 html.dark .menu-panel {
-	border: 1px solid #1f353e;
+	border: 1px solid var(--primary-low);
 }
 
 html.dark .badge-wrapper:hover {
@@ -205,7 +206,7 @@ html.dark .category-boxes-with-topics .category-box-heading {
 
 html.dark .search-container .search-advanced-sidebar .search-advanced-filters,
 html.dark .user-preferences .bio-composer .d-editor-preview {
-	background: #222;
+	background: #222222;
 }
 
 .darknav ul a,
@@ -376,14 +377,14 @@ html.dark a.hashtag,
 html.dark .title-wrapper .topic-statuses .d-icon,
 html.dark .user-stream .notification p span:first-child,
 html.dark .discourse-local-date.cooked-date .d-icon {
-	color: #019245;
+	color: #0f82af;
 }
 
 html.dark .header-nav--active,
 html.dark .header-navListItem:hover {
-	background: #019245;
-	background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0), #019245);
-	background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #019245);
+	background: #0f82af;
+	background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0), #0f82af);
+	background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #0f82af);
 	color: #fff;
 }
 
@@ -418,7 +419,7 @@ html.dark .donation-modalFooterAccept:active,
 html.dark .donation-info:active,
 html.dark .donation-infoButton:active,
 html.dark .ecc-calc:active {
-	background-color: #019245;
+	background-color: #0f82af;
 	color: #fbfbfb;
 }
 
@@ -474,7 +475,7 @@ html.dark .selected-posts .btn,
 html.dark .topic-post.selected article.boxed .select-posts button.select-post,
 html.dark .post-notice,
 html.dark .topic-body .solved-container .btn {
-	background-color: #019245;
+	background-color: #0f82af;
 }
 
 html.dark .moderator .cooked,
