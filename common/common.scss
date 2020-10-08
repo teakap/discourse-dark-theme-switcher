@@ -150,7 +150,11 @@ html.dark .user-menu .quick-access-panel .read {
 }
 .admin-contents.admin-customize.admin-customize-themes{
 	background-color: var(--secondary);
- }
+ };
+
+ html.dark .theme .control-unit {
+    box-shadow: none;
+}
 html.dark .topic-map .buttons .btn,
 html.dark .modal .nav,
 html.dark .edit-category-tab-topic-template .d-editor-preview,
@@ -507,7 +511,7 @@ html.dark .post-notice.old {
 
 html.dark .admin-controls .nav-pills,
 html.dark .admin-customize .themes-list-header {
-	background: #010303;
+	background: none;
 }
 
 html.dark.discord-userlist::-webkit-scrollbar,
