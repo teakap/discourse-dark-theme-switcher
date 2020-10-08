@@ -175,14 +175,6 @@ html.dark #banner {
 	background-color: black;
 }
 
-html.dark .discourse-no-touch:hover,
-html.dark .btn:hover,
-html.dark .select-kit .select-kit-row.is-selected,
-html.dark .admin-report-table .table .admin-report-table-header:not(.is-current-sort) .sort-btn:hover,
-html.dark .select-kit.combo-box .select-kit-row:hover {
-	background: #222222;
-}
-
 // TODO: Double check me!
 html.dark .menu-panel {
 	border: 1px solid var(--primary-low);
