@@ -155,6 +155,10 @@ html.dark .user-menu .quick-access-panel .read {
  html.dark .theme .control-unit {
     box-shadow: none!important;
 }
+
+.form-horizontal.theme.settings.control-unit.ember-view {
+	box-shadow: none!important;
+}
 html.dark .topic-map .buttons .btn,
 html.dark .modal .nav,
 html.dark .edit-category-tab-topic-template .d-editor-preview,
