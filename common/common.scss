@@ -153,6 +153,14 @@ html.dark .user-menu .quick-access-panel .read {
     outline: none;
 }
 
+#main-outlet {
+	background: black;
+}
+
+.menu-panel.slide-in {
+	background-color: var(--secondary);
+}
+
 .form-horizontal.theme.settings.control-unit.ember-view {
 	box-shadow: none!important;
 }
