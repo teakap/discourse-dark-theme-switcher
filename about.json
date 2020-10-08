@@ -11,17 +11,18 @@
   },
   "color_schemes": {
     "Discourse Theme Switcher": {
-      "primary": "222222",
-      "secondary": "ffffff",
-      "tertiary": "019245",
-      "quaternary": "019494",
-      "header_background": "019245",
-      "header_primary": "333333",
-      "highlight": "ffff4d",
+      "primary": "dddddd",
+      "secondary": "222222",
+      "tertiary": "0f82af",
+      "quaternary": "c14924",
+      "header_background": "111111",
+      "header_primary": "dddddd",
+      "highlight": "a87137",
       "danger": "e45735",
       "success": "019245",
-      "love": "d41313"
+      "love": "fa6c8d"
     }
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
+ 
