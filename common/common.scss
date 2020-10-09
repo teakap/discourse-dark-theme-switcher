@@ -121,9 +121,11 @@ html.dark .category-boxes .category-box-inner, .category-boxes-with-topics .cate
 html.dark .discourse-local-date.cooked {
 	color: #0f82af;
 }
-.admin-container {
+
+html.dark .admin-container {
 	background-color: var(--secondary)!important;
 }
+
 html.dark,
 html.dark .header nav,
 html.dark .side-nav,
@@ -140,7 +142,6 @@ html.dark .user-menu .notifications .read,
 html.dark .user-stream .item.large-notification,
 html.dark .user-stream .user-stream-item,
 html.dark .select-kit.multi-select .select-kit-row,
-html.dark .select-kit .select-kit-collection,
 html.dark .select-kit .select-kit-body,
 html.dark .popup-menu,
 html.dark .user-menu .quick-access-panel .read {
