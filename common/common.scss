@@ -124,7 +124,7 @@ html.dark .discourse-local-date.cooked {
 
 html.dark .admin-container,
 html.dark .select-kit .select-kit-body,
-html.dark .select-kit-body.select-kit-collection {
+html.dark .select-kit-collection {
 	background-color: var(--secondary)!important;
 }
 
@@ -149,21 +149,28 @@ html.dark .user-menu .quick-access-panel .read {
 	background-color: #111111;
 	
 }
-.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus, .menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus, .menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus, .menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
+.menu-panel li a.widget-link:hover, 
+.menu-panel li a.widget-link:focus, 
+.menu-panel li a.categories-link:hover, 
+.menu-panel li a.categories-link:focus, 
+.menu-panel li.heading a.widget-link:hover, 
+.menu-panel li.heading a.widget-link:focus, 
+.menu-panel li.heading a.categories-link:hover, 
+.menu-panel li.heading a.categories-link:focus {
     background-color: var(--highlight-medium)!important;
     outline: none;
 }
 
-#main-outlet {
+html.dark #main-outlet {
 	background: black;
 }
 
-.menu-panel.slide-in {
+html.dark .menu-panel.slide-in {
 	background-color: var(--secondary);
 }
 
 
-.form-horizontal.theme.settings.control-unit.ember-view {
+html.dark .form-horizontal.theme.settings.control-unit.ember-view {
 	box-shadow: none!important;
 }
 
