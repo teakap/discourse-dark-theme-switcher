@@ -122,7 +122,8 @@ html.dark .discourse-local-date.cooked {
 	color: #0f82af;
 }
 
-html.dark .admin-container {
+html.dark .admin-container,
+html.dark .select-kit .select-kit-body {
 	background-color: var(--secondary)!important;
 }
 
@@ -142,7 +143,6 @@ html.dark .user-menu .notifications .read,
 html.dark .user-stream .item.large-notification,
 html.dark .user-stream .user-stream-item,
 html.dark .select-kit.multi-select .select-kit-row,
-html.dark .select-kit .select-kit-body,
 html.dark .popup-menu,
 html.dark .user-menu .quick-access-panel .read {
 	background-color: #111111;
