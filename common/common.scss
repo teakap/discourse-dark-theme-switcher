@@ -121,7 +121,9 @@ html.dark .category-boxes .category-box-inner, .category-boxes-with-topics .cate
 html.dark .discourse-local-date.cooked {
 	color: #0f82af;
 }
-
+.admin-container {
+	background-color: var(--secondary)!important;
+}
 html.dark,
 html.dark .header nav,
 html.dark .side-nav,
