@@ -133,9 +133,7 @@ html.dark body,
 html.dark body .boxed.white,
 html.dark #reply-control .wmd-controls .d-editor-input,
 html.dark #reply-control .wmd-controls .d-editor-preview,
-html.dark .admin-detail,
 html.dark .modal-inner-container,
-html.dark .menu-panel,
 html.dark #reply-control.fullscreen:before,
 html.dark .user-menu .notifications .read,
 html.dark .user-stream .item.large-notification,
@@ -160,6 +158,7 @@ html.dark .user-menu .quick-access-panel .read {
 .menu-panel.slide-in {
 	background-color: var(--secondary);
 }
+
 
 .form-horizontal.theme.settings.control-unit.ember-view {
 	box-shadow: none!important;
