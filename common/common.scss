@@ -149,14 +149,14 @@ html.dark .user-menu .quick-access-panel .read {
 	background-color: #111111;
 	
 }
-.menu-panel li a.widget-link:hover, 
-.menu-panel li a.widget-link:focus, 
-.menu-panel li a.categories-link:hover, 
-.menu-panel li a.categories-link:focus, 
-.menu-panel li.heading a.widget-link:hover, 
-.menu-panel li.heading a.widget-link:focus, 
-.menu-panel li.heading a.categories-link:hover, 
-.menu-panel li.heading a.categories-link:focus {
+html.dark .menu-panel li a.widget-link:hover, 
+html.dark .menu-panel li a.widget-link:focus, 
+html.dark .menu-panel li a.categories-link:hover, 
+html.dark .menu-panel li a.categories-link:focus, 
+html.dark .menu-panel li.heading a.widget-link:hover, 
+html.dark .menu-panel li.heading a.widget-link:focus, 
+html.dark .menu-panel li.heading a.categories-link:hover, 
+html.dark .menu-panel li.heading a.categories-link:focus {
     background-color: var(--highlight-medium)!important;
     outline: none;
 }
@@ -166,7 +166,7 @@ html.dark #main-outlet {
 }
 
 html.dark .menu-panel.slide-in {
-	background-color: var(--secondary);
+	background-color: var(--secondary)!important;
 }
 
 
